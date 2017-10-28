@@ -1,0 +1,153 @@
+/* deixa tudo sem margem */
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* adiciona um margem no body */
+body {
+    padding: 20px 20px 20px 20px;
+}
+
+/* adiciona margem no h1 */
+h1 {
+    margin: 10px 0 15px 0;
+}
+
+/* adiciona margem no h2 */
+h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+/* adiciona margem no h3 e coloca uma linha em baixo */
+h3 {
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+
+/* Identando a lista */
+ul, ol {
+    padding: 0 0 0 50px;
+}
+
+.recipes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: #7FACAA;
+    text-decoration: none;
+}
+
+/**/
+
+.menu li {
+    font-size: 24px;
+    display: inline;
+}
+
+.menu {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+
+ul li {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #539cb3;
+}
+
+ol li:first-child {
+    color: rgb(69, 200, 157);
+}
+
+/* Adiciona a cor azul nos titulos */
+h1, h2, h3 {
+    color: rgb(69, 200, 157);
+}
+
+body {
+    padding: 0 0 0 0;
+}
+
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #B56663;
+}
+
+.header a {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.main-content {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #DDDDDD;
+    margin: 30px auto 0 auto;
+}
+
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.photos li {
+    display: inline;
+    padding-left: 11px;
+}
+
+.photos li img {
+    max-width:190px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background: #000000 url(../img/grey.png) top left repeat;
+}
+
+.main-content {
+    background: #FFFFFF top left repeat;
+}
+
+.recipes li {
+    background: #fefefe top left repeat;
+    /*border: 1px solid #B56665;*/
+}
+
+.featured-image {
+    width: 500px;
+    height: 450px;
+    background: #FFFFFF url(../img/cake1.jpg) top center no-repeat;
+}
+
+.featured-image h3 {
+    margin: 0;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 5px 0 5px 15px;
+    text-transform: uppercase;
+}
